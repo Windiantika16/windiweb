@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rangkuman Materi HTML lengkap dengan contoh-contohnya.">
+    <title>Web Windi Antika</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #2c3e50, #4b79a1);
+            color: #ffffff;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        pre code {
+            background-color: #212529;
+            color: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .form-section {
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #000;
+            border-radius: 10px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Rangkuman Materi HTML</h1>
+        <p>Memahami dasar-dasar HTML dan elemen-elemen pentingnya.</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">HTML Guide</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#html">HTML</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sejarah-html">Sejarah HTML</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ciri-html">Ciri-ciri Dokumen HTML</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#struktur-html">Struktur HTML</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tags">Tag HTML</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#font">Font Tag</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#image">Image Tag</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#anchor">Anchor Tag</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-4">
+        <!-- Section: HTML -->
+        <section id="html">
+            <h2>HTML</h2>
+            <p>HTML (Hypertext Markup Language) adalah bahasa markup yang digunakan untuk membuat halaman web dan
+                menampilkan informasi di browser.</p>
+        </section>
+
+        <!-- Section: Sejarah HTML -->
+        <section id="sejarah-html" class="my-4">
+            <h2>Sejarah HTML</h2>
+            <p>HTML pertama kali diperkenalkan oleh Tim Berners-Lee pada tahun 1991.</p>
+            <ul>
+                <li>1993: Versi pertama HTML dirilis.</li>
+                <li>1995: HTML 2.0 diresmikan sebagai standar.</li>
+                <li>1996: HTML 3.2 muncul.</li>
+                <li>1997: HTML 4.0 hadir.</li>
+                <li>2014: HTML5 dirilis.</li>
+            </ul>
+        </section>
+
+        <!-- Section: Ciri-ciri HTML -->
+        <section id="ciri-html" class="my-4">
+            <h2>Ciri-ciri Dokumen HTML</h2>
+            <ul>
+                <li>Ekstensi file .html atau .htm</li>
+                <li>Tidak case-sensitive</li>
+                <li>Berpasangan antara tag pembuka dan penutup</li>
+                <li>Tag bisa bersarang satu sama lain</li>
+            </ul>
+        </section>
+
+        <!-- Section: Struktur HTML -->
+        <section id="struktur-html" class="my-4">
+            <h2>Struktur HTML</h2>
+            <pre><code>&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Judul Halaman&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;p&gt;Ini adalah konten halaman.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </section>
+
+        <!-- Section: Tags HTML -->
+        <section id="tags" class="my-4">
+            <h2>Tag HTML</h2>
+            <ul>
+                <li>&lt;h1&gt; hingga &lt;h6&gt;: Tag heading</li>
+                <li>&lt;p&gt;: Tag paragraf</li>
+                <li>&lt;br&gt;: Tag untuk baris baru (single tag)</li>
+            </ul>
+        </section>
+
+        <!-- Section: Font Tag -->
+        <section id="font" class="my-4">
+            <h2>Font Tag</h2>
+            <ul>
+                <li>&lt;b&gt;: Teks tebal</li>
+                <li>&lt;i&gt;: Teks miring</li>
+                <li>&lt;u&gt;: Teks bergaris bawah</li>
+            </ul>
+        </section>
+
+        <!-- Section: Image Tag -->
+        <section id="image" class="my-4">
+            <h2>Image Tag</h2>
+            <p>Tag ini digunakan untuk menampilkan gambar:</p>
+            <pre><code>&lt;img src="gambar.jpg" alt="Deskripsi" width="300" /&gt;</code></pre>
+        </section>
+
+        <!-- Section: Anchor Tag -->
+        <section id="anchor" class="my-4">
+            <h2>Anchor / Hyperlink Tag</h2>
+            <pre><code>&lt;a href="http://website.com"&gt;Kunjungi Website&lt;/a&gt;</code></pre>
+        </section>
+
+        <!-- Section: Registration Form -->
+        <section id="registration" class="form-section my-5">
+            <h2 class="text-center">Formulir Registrasi Pengguna</h2>
+            <form>
+                <div class="row mb-3">
+                    <label for="firstName" class="col-md-3 col-form-label">Nama Depan:</label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" id="firstName" placeholder="Nama Depan" required>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="lastName" class="col-md-3 col-form-label">Nama Belakang:</label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" id="lastName" placeholder="Nama Belakang" required>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="address" class="col-md-3 col-form-label">Alamat:</label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" id="address" placeholder="Alamat" required>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="birthDate" class="col-md-3 col-form-label">Tanggal Lahir:</label>
+                    <div class="col-md-9">
+                        <input type="date" class="form-control" id="birthDate" required>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label class="col-md-3 col-form-label">Jenis Kelamin:</label>
+                    <div class="col-md-9 d-flex">
+                        <div class="form-check me-3">
+                            <input class="form-check-input" type="radio" name="gender" id="male" value="Laki-laki" required>
+                            <label class="form-check-label" for="male">Laki-laki</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gender" id="female" value="Perempuan" required>
+                            <label class="form-check-label" for="female">Perempuan</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="username" class="col-md-3 col-form-label">Username:</label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" id="username" placeholder="Username" required>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="password" class="col-md-3 col-form-label">Password:</label>
+                    <div class="col-md-9">
+                        <input type="password" class="form-control" id="password" placeholder="Password" required>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="photo" class="col-md-3 col-form-label">Unggah Foto:</label>
+                    <div class="col-md-9">
+                        <input type="file" class="form-control" id="photo" required>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success">Daftar</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Section: Kontak -->
+        <section id="kontak" class="my-5">
+            <h2>Kontak</h2>
+            <p>Untuk informasi lebih lanjut, hubungi kami melalui email di: <a href="mailto:Windyantika402@gmail.com">Windyantika402@gmail.com</a></p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Materi HTML. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rangkuman Materi HTML lengkap dengan contoh-contohnya.">
+    <title>Web Windi Antika</title>
+   <!-- Link ke Bootstrap CDN -->
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- Hubungkan dengan file CSS -->
+   <link rel="stylesheet" href="styles.css"> 
+   <style>/* Background gradient */
+       body {
+           background: linear-gradient(135deg, #2c3e50, #4b79a1); /* Gradient antara biru keabuan dan biru gelap */
+           color: #ffffff; /* Warna teks menjadi putih agar kontras */
+           font-family: 'Arial', sans-serif;
+       }
+       
+       /* Style untuk header */
+       header {
+           padding: 20px;
+           text-align: center;
+           background-color: rgba(0, 0, 0, 0.6); /* Warna hitam semi transparan */
+       }
+       
+       h1 {
+           font-size: 2.5rem;
+       }
+       
+       p {
+           font-size: 1.2rem;
+       }
+       </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Rangkuman Materi HTML</h1>
+        <p>Memahami dasar-dasar HTML dan elemen-elemen pentingnya.</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#sejarah-html">Sejarah HTML</a></li>
+            <li><a href="#ciri-html">Ciri-ciri Dokumen HTML</a></li>
+            <li><a href="#struktur-html">Struktur HTML</a></li>
+            <li><a href="#tags">Tag HTML</a></li>
+            <li><a href="#font">Font Tag</a></li>
+            <li><a href="#image">Image Tag</a></li>
+            <li><a href="#anchor">Anchor / Hyperlink Tag</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section: HTML -->
+    <section id="html">
+        <h2>HTML</h2>
+        <p>HTML (Hypertext Markup Language) adalah bahasa markup yang digunakan untuk membuat halaman web dan menampilkan berbagai informasi di dalam browser. HTML menggunakan tag-tag untuk memberikan instruksi kepada browser mengenai bagaimana halaman web seharusnya ditampilkan.</p>
+    </section>
+
+    <!-- Section: Sejarah HTML -->
+    <section id="sejarah-html">
+        <h2>Sejarah HTML</h2>
+        <p>HTML pertama kali diciptakan oleh seorang fisikawan di CERN, Swiss bernama Tim Berners-Lee pada tahun 1991. Tujuannya adalah untuk mempermudah pembagian informasi melalui web browser.
+        <p>Beberapa tahun penting dalam sejarah HTML adalah:</p>
+        <ul>
+            <li>HTML Versi Pertama dirilis pada tahun 1993, versi pertama HTML berisi 18 tag.</li>
+            <li>HTML 2.0 atau RFC1866 disetujui sebagai standard pada 22 september 1995.</li>
+            <li>HTML 3.2 dirilis pada 14 januari 1996.</li>
+            <li>HTML 4.0 dirilis pada 18 Desember 1997, versi ini memiliki perintah dasar untuk menambahkan gambar, tabel, tautan, teks, dan formulir.</li>
+            <li>ISO/IEC 15445:2000 "ISO HTML" berdasarkan pada HTML 4.01 strict- 15 mei 2000.</li>
+            <li>XHTML 1.0 (2000)</li>
+            <li>XHTML 1.1 diliris pada 16 februari 2007.</li>
+            <li>HTML 5 dirilis pada 2014, versi ini merupakan perpanjangan dari HTML 4.01 dan bisa menggabungkan HTML dengan bahasa pemrograman lainnya seperti CSS dan JavaScript.</li>
+        </ul>
+    </section>
+
+    <!-- Section: Ciri-ciri HTML -->
+    <section id="ciri-html">
+        <h2>Ciri-ciri Dokumen HTML</h2>
+        <ul>
+            <li>Ekstensi file berupa .html atau .htm</li>
+            <li>Non case sensitive</li>
+            <li>Terdiri dari tag pembuka dan penutup</li>
+            <li>Tag saling berpasangan dan bersarang</li>
+        </ul>
+    </section>
+
+    <!-- Section: Struktur HTML -->
+    <section id="struktur-html">
+        <h2>Struktur HTML</h2>
+        <pre><code>
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;Judul Halaman&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;p&gt;Ini adalah konten halaman.&lt;/p&gt;
+            &lt;/body&gt;
+        &lt;/html&gt;
+        </code></pre>
+    </section>
+
+    <!-- Section: Tags HTML -->
+    <section id="tags">
+        <h2>Tag HTML</h2>
+        <p>Tag, atribut, dan elemen adalah bagian penting dari HTML:</p>
+        <ul>
+            <li>Tag pembuka: &lt;tag&gt;</li>
+            <li>Tag penutup: &lt;/tag&gt;</li>
+            <li>Single tag: &lt;br /&gt;, &lt;hr /&gt;</li>
+        </ul>
+    </section>
+
+    <!-- Section: Font Tag -->
+    <section id="font">
+        <h2>Font Tag</h2>
+        <p>Tag ini digunakan untuk memodifikasi teks:</p>
+        <ul>
+            <li>&lt;b&gt;Teks tebal&lt;/b&gt;</li>
+            <li>&lt;i&gt;Teks miring&lt;/i&gt;</li>
+            <li>&lt;u&gt;Teks bergaris bawah&lt;/u&gt;</li>
+            <li>&lt;sup&gt;Superscript&lt;/sup&gt;</li>
+            <li>&lt;sub&gt;Subscript&lt;/sub&gt;</li>
+        </ul>
+    </section>
+
+    <!-- Section: Image Tag -->
+    <section id="image">
+        <h2>Image Tag</h2>
+        <p>Untuk menampilkan gambar pada halaman web:</p>
+        <pre><code>&lt;img src="gambar.jpg" alt="Deskripsi gambar" width="300" height="200" /&gt;</code></pre>
+    </section>
+
+    <h2>Registration Form</h2>
+
+    <form action="/submit_registration" method="POST" enctype="multipart/form-data">
+        <table border="1" bordercolor="black">
+            <tr>
+                <td><label for="first_name">Nama Depan:</label></td>
+                <td><input type="text" id="first_name" name="first_name" required></td>
+            </tr>
+            <tr>
+                <td><label for="last_name">Nama Belakang:</label></td>
+                <td><input type="text" id="last_name" name="last_name" required></td>
+            </tr>
+            <tr>
+                <td><label for="address">Alamat:</label></td>
+                <td><input type="text" id="address" name="address" required></td>
+            </tr>
+            <tr>
+                <td><label for="birthdate">Tanggal Lahir:</label></td>
+                <td><input type="date" id="birthdate" name="birthdate" required></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Jenis Kelamin:</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Pria</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Wanita</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="username">Username:</label></td>
+                <td><input type="text" id="username" name="username" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="photo">Foto:</label></td>
+                <td><input type="file" id="photo" name="photo" accept="image/*" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;"><input type="submit" value="Daftar"></td>
+            </tr>
+        </table>
+    </form>
+
+    <!-- Section: Anchor Tag -->
+    <section id="anchor">
+        <h2>Anchor / Hyperlink Tag</h2>
+        <p>Untuk membuat hyperlink yang menghubungkan halaman atau file:</p>
+        <pre><code>&lt;a href="http://website.com"&gt;Kunjungi Website&lt;/a&gt;</code></pre>
+    </section>
+
+<!-- Kontak -->
+<section id="kontak">
+    <h2>Kontak</h2>
+    <p>Untuk informasi lebih lanjut, hubungi kami melalui email di: <a href="Windyantika402@gmail.com">Windyantika402@gmail.com</a></p>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Materi HTML. All rights reserved.</p>
+    </footer>
+</body>
+</html>
